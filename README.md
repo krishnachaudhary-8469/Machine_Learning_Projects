@@ -1,7 +1,6 @@
-# Machine_Learning_Projects
 Welcome to ML Projects Repository.
 
-Introduction
+# Introduction
 
 Everyone loves movies irrespective of age, gender, race, colour, or 
 geographical location. The most interesting fact which I found is how we all 
@@ -13,7 +12,7 @@ So, here’s where a role of data analyst come, we extract all the patterns
 based on user’s behaviour and from the data(movie) itself. So, without any 
 further delay let’s jump and discuss our recommendation system.
 
-What is a Recommendation System?
+# What is a Recommendation System?
 
 In a simple words a Recommendation System is a filtration program whose 
 primary goal is to predict the “preference” or “rating” of a user towards a specific 
@@ -21,7 +20,7 @@ domain. In our case, this is domain-specific recommendation system, where we
 will predict only those movie which user would prefer based on data of his/her 
 choice.
 
-What are the different filtration strategies?
+# What are the different filtration strategies?
 
 • Content-based Filtering
 In this filtration strategy the algorithm recommends products which user 
@@ -46,16 +45,16 @@ then combining the prediction or we can just add the capabilities of
 collaborative-based methods to a content-based approach (and vice 
 versa).
 
-About this Project:
+# About this Project:
 
 This project is based on Content-based Filtering methodology. We will create tags
 based on different columns like ‘genres’, ‘keyword’, ‘cast’, ‘crew’.
 
-Project Flow (High Level Overview)
+# Project Flow (High Level Overview)
 
 Data ----- > Preprocessing ------ > ML Model -----> To Website ----- > Deploy
 
-About Dataset
+# About Dataset
 
 This is a TMDB 5000 Movie Dataset. There are two csv files.
 1. Movies: The movie dataset contains information of movies in which we 
@@ -63,7 +62,7 @@ have different columns like genres, homepage, id, keywords etc.
 2. Credits: The credits dataset contains information of cast and crew with the 
 name of movie in which they have worked.
 
-Approach of Problem
+# Approach of Problem
 
 We will first combine both dataset into single dataset. Then we will extract only
 those columns which will be helpful in creating tags. Once that done then we 
